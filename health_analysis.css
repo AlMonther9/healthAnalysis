@@ -1,0 +1,146 @@
+/* Basic CSS for the navigation bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0EAD2;
+    color: #6C584C;
+    margin: 20px;
+}
+
+nav {
+    background-color: #DDE5B6;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ADC178;
+}
+
+nav h1 {
+    color: #A98467;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6C584C;
+    font-weight: bold;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ADC178;
+    border-radius: 5px;
+}
+
+nav button {
+    padding: 7px 15px;
+    background-color: #A98467;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #6C584C;
+}
+
+/* Basic CSS for the form elements */
+
+h1 {
+    margin-bottom: 20px;
+    color: #A98467;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.analysisForm, .searchCondition {
+    background-color: #DDE5B6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    flex: 1;
+    margin: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    color: #6C584C;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 110px);
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ADC178;
+    border-radius: 5px;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: #A98467;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6C584C;
+}
+
+/* Basic CSS for the report section */
+
+h2 {
+    margin-top: 30px;
+    color: #A98467;
+}
+
+#report, #result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    background-color: #F0EAD2;
+    border: 1px solid #ADC178;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#result {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#result img {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #ADC178;
+}
